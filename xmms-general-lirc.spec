@@ -35,7 +35,7 @@ Ta wtyczka pozwala na zdaln± kontrolê xmms'a za pomoc± LIRC.
 rm -f missing
 %{__libtoolize}
 %{__aclocal}
-autoheader
+%{__autoheader}
 %{__autoconf}
 %{__automake}
 %configure
