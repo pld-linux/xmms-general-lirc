@@ -17,8 +17,6 @@ BuildRequires:	xmms-devel >= 1.2.3
 Requires:	xmms
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
 
 %description
 This plugin allows to control xmms using LIRC (Linux Infrared Remote
