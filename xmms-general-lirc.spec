@@ -36,9 +36,9 @@ aclocal
 autoheader
 autoconf
 automake -a -c
-%configure 
+%configure
 
-%{__make} 
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
