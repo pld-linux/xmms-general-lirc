@@ -6,6 +6,7 @@ Release:	4
 License:	GPL v2+
 Group:		X11/Applications/Sound
 Source0:	ftp://ftp.xmms.org/xmms/plugins/lirc-xmms/lirc-xmms-plugin-%{version}.tar.gz
+# Source0-md5:	d268886f9b26aba7e29e04569322668c
 Patch0:		%{name}-ac.patch
 URL:		http://www.xmms.org/plugins.html
 BuildRequires:	autoconf
