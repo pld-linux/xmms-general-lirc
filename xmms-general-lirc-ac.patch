@@ -14,15 +14,3 @@
  
  if test "$have_viavoice_tts" = "yes"; then
    AC_DEFINE(HAVE_VIAVOICE_TTS)
---- lirc-xmms-plugin-1.2/configure.in.orig	Mon Sep 30 22:17:19 2002
-+++ lirc-xmms-plugin-1.2/configure.in	Mon Sep 30 22:17:19 2002
-@@ -32,7 +32,8 @@
- have_lirc=yes
- AC_REQUIRE_CPP
- AC_CHECK_LIB(lirc_client,lirc_init,
--AC_CHECK_HEADER(lirc/lirc_client.h,true,have_lirc=no),have_lirc=no)
-+  [AC_CHECK_HEADER(lirc/lirc_client.h,true,[have_lirc=no])],
-+  [have_lirc=no])
- 
- if test "$have_lirc" = "yes"; then
-       true;
