@@ -6,6 +6,7 @@ Release:	4
 License:	GPL v2+
 Group:		X11/Applications/Multimedia
 Source0:	ftp://ftp.xmms.org/xmms/plugins/lirc-xmms/lirc-xmms-plugin-%{version}.tar.gz
+Patch0:		%{name}-ac.patch
 URL:		http://www.xmms.org/plugins.html
 BuildRequires:	gtk+-devel >= 1.2.2
 BuildRequires:	xmms-devel >= 1.2.3
@@ -28,6 +29,7 @@ Ta wtyczka pozwala na zdaln± kontrolê xmms'a za pomoc± LIRC.
 
 %prep
 %setup -q -n lirc-xmms-plugin-%{version}
+%patch -p1
 
 %build
 rm -f missing
