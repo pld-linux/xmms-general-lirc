@@ -4,16 +4,16 @@ Name:		xmms-general-lirc
 Version:	1.2
 Release:	4
 License:	GPL v2+
-Group:		X11/Applications/Multimedia
+Group:		X11/Applications/Sound
 Source0:	ftp://ftp.xmms.org/xmms/plugins/lirc-xmms/lirc-xmms-plugin-%{version}.tar.gz
 Patch0:		%{name}-ac.patch
 URL:		http://www.xmms.org/plugins.html
-BuildRequires:	gtk+-devel >= 1.2.2
-BuildRequires:	xmms-devel >= 1.2.3
-BuildRequires:	lirc-devel >= 0.6.0
-BuildRequires:	automake
 BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	gtk+-devel >= 1.2.2
 BuildRequires:	libtool
+BuildRequires:	lirc-devel >= 0.6.0
+BuildRequires:	xmms-devel >= 1.2.3
 Requires:	xmms
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -25,7 +25,7 @@ This plugin allows to control xmms using LIRC (Linux Infrared Remote
 Control).
 
 %description -l pl
-Ta wtyczka pozwala na zdaln± kontrolê xmms'a za pomoc± LIRC.
+Ta wtyczka pozwala na zdaln± kontrolê xmms-a za pomoc± LIRC.
 
 %prep
 %setup -q -n lirc-xmms-plugin-%{version}
