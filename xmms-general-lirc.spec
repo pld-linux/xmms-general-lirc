@@ -3,7 +3,7 @@ Summary(pl):	Wtyczka LIRC (Zdalna kontrola Linuksa za pomoc± podczerwieni) dla X
 Name:		xmms-general-lirc
 Version:	1.2
 Release:	3
-License:	GPL v2
+License:	GPL v2+
 Group:		X11/Applications/Multimedia
 Source0:	ftp://ftp.xmms.org/xmms/plugins/lirc-xmms/lirc-xmms-plugin-%{version}.tar.gz
 URL:		http://www.xmms.org/plugins.html
