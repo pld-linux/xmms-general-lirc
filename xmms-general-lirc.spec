@@ -31,7 +31,7 @@ Ta wtyczka pozwala na zdaln± kontrolê xmms'a za pomoc± LIRC.
 
 %build
 rm missing
-libtoolize --copy --force
+%{__libtoolize}
 aclocal
 autoheader
 %{__autoconf}
