@@ -54,4 +54,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS NEWS README ChangeLog lircrc
 %attr(755,root,root) %{_libdir}/xmms/General/*.so
-%attr(755,root,root) %{_libdir}/xmms/General/*.la
+%{_libdir}/xmms/General/*.la
