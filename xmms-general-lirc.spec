@@ -5,8 +5,6 @@ Version:	1.2
 Release:	1
 License:	GPL
 Group:		X11/Applications/Multimedia
-Group(de):	X11/Applikationen/Multimedia
-Group(pl):	X11/Aplikacje/Multimedia
 Source0:	ftp://ftp.xmms.org/xmms/plugins/lirc-xmms/lirc-xmms-plugin-%{version}.tar.gz
 URL:		http://www.xmms.org/plugins.html
 BuildRequires:	gtk+-devel >= 1.2.2
