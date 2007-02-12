@@ -1,5 +1,5 @@
 Summary:	LIRC (Linux Infrared Remote Control) plugin for XMMS
-Summary(pl.UTF-8):   Wtyczka LIRC (Zdalne sterowanie Linuksem za pomocą podczerwieni) dla XMMS-a
+Summary(pl.UTF-8):	Wtyczka LIRC (Zdalne sterowanie Linuksem za pomocą podczerwieni) dla XMMS-a
 Name:		xmms-general-lirc
 Version:	1.4
 Release:	1
