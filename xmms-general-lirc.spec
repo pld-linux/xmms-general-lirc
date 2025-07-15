@@ -28,7 +28,7 @@ Ta wtyczka pozwala na zdalne sterowanie XMMS-em za pomocą LIRC.
 
 %prep
 %setup -q -n lirc-xmms-plugin-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__libtoolize}
